@@ -4,6 +4,16 @@ const weatherBox = document.querySelector(".weather-box");
 const weatherDetails = document.querySelector(".weather-details");
 const error404 = document.querySelector(".not-found");
 
+// Create "like" button element
+
+const likeButton = document.createElement("button");
+likeButton.classList.add("like-button");
+likeButton.innerHTML = "Like";
+
+// Append "like" button to container
+
+container.appendChild(likeButton);
+
 search.addEventListener("click", () =>{
      
 const APIKey = "1a6b19b880a95e4b063d8300ccd84949";
@@ -31,6 +41,17 @@ fetch (`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&a
            const wind = document.querySelector('.weather-details .wind span');
 
            switch (json.weather[0].main){
+
+            case "Clear":
+                image.src =
+                  "https://img.freepik.com/free-vector/cheerful-funny-cartoon-sun_74855-206.jpg?w=740&t=st=1680847121~exp=1680847721~hmac=785d473d3baa2312bfb2c07ff230c6399756a37395b96b45790520bcccf1e459";
+                // Add "like" button functionality for sunny weather
+                likeButton.style.display = "block";
+                likeButton.addEventListener("click", () => {
+                  // Perform action for "like" button click on sunny weather
+                  console.log("Liked sunny weather!");
+                });
+                break;
             case 'Clear':
                 image.src = 'https://img.freepik.com/free-vector/cheerful-funny-cartoon-sun_74855-206.jpg?w=740&t=st=1680847121~exp=1680847721~hmac=785d473d3baa2312bfb2c07ff230c6399756a37395b96b45790520bcccf1e459';
                 break;
