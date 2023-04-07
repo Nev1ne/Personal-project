@@ -1,16 +1,19 @@
 Weather App
+
 Developer: Nevine
+
 This project is a web application that allows users to access the weather conditions for a particular place
 
 MVPs
-Search for any location.
-Access the weather of that particular location.
-like if the weather is partly cloudy and sunny
+-Search for any location.
+-Access the weather of that particular location.
+-like if the weather is partly cloudy and sunny
 
 Technologies Used
+
 The following technologies were used in the development of this project:
 
-HTML CSS JavaScript
+-HTML -CSS -JavaScript
 
 Installation and Usage
 To install and use this project, follow these steps:
