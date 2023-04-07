@@ -23,6 +23,7 @@ body{
     padding: 28px 32px;
     overflow: hidden;
     border-radius: 18px;
+    backdrop-filter: blur(15px);
     font-family: "Roboto", sans-serif;
     transition: 0.6s ease-out;
 }
