@@ -32,19 +32,19 @@ fetch (`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&a
 
            switch (json.weather[0].main){
             case 'Clear':
-                image.src = 'images/clear.png';
+                image.src = 'https://img.freepik.com/free-vector/cheerful-funny-cartoon-sun_74855-206.jpg?w=740&t=st=1680847121~exp=1680847721~hmac=785d473d3baa2312bfb2c07ff230c6399756a37395b96b45790520bcccf1e459';
                 break;
             case 'Rain':
-                image.src = 'images/rain.png';
+                image.src = 'https://img.freepik.com/free-vector/cloud-with-falling-rain-background_1017-32364.jpg?w=740&t=st=1680847312~exp=1680847912~hmac=60a4b711b3a7e352bca5fa25cc8f5591fef3895a4a9b99883dbf4a41ed16b4c1';
                 break; 
             case 'Snow':
-                image.src = 'images/snow.png';
+                image.src = 'https://img.freepik.com/free-vector/thermometer-winter-season_1308-69842.jpg?w=740&t=st=1680847915~exp=1680848515~hmac=d6ad06e0fdb53f422e57e53f9b2353cfc78b4f0328cd85c360d9283ae9a857cd';
                 break;
             case 'Clouds':
-                image.src = 'images/clouds.png';
+                image.src = 'https://img.freepik.com/free-vector/horizontal-sky-with-cloud-background_1308-110533.jpg?w=996&t=st=1680847779~exp=1680848379~hmac=17ca2024a7ff641fa731c1dca1ce728dd5e348fbf3aa79b1df24289d3479ff9a';
                 break;  
             case 'Haze':
-                image.src = 'images/haze.png';
+                image.src = 'https://img.freepik.com/premium-vector/abstract-swirl-smoke-steam-isolated-blue-background_714617-175.jpg?w=996';
                 break;   
                 
                 default:
