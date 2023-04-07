@@ -5,8 +5,8 @@ This project is a web application that allows users to access the weather condit
 MVPs
 Search for any location.
 Access the weather of that particular location.
-Select and like a pet.
-Adopt a pet and submit an input form for email and address.
+like if the weather is partly cloudy and sunny
+
 Technologies Used
 The following technologies were used in the development of this project:
 
@@ -62,10 +62,6 @@ HTML, CSS, and JavaScript and will communicate with a public API.
 
 5. Follow good coding practices. Keep your code DRY (Do not repeat yourself) by
    utilizing functions to abstract repetitive code.
-
-### Stretch Goals
-
-1. Use [json-server][] in your project to persist your app's interactivity.
 
 ## Strategy, Timeline, and Tips
 
