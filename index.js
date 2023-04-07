@@ -49,7 +49,10 @@ fetch (`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&a
                 break;  
             case 'Moon':
                 image.src = 'https://img.freepik.com/free-vector/blue-watercolor-crescent-geometric-shape-vector_53876-164626.jpg?size=626&ext=jpg';
-                break;          
+                break; 
+            case 'Wind':
+                image.src = 'https://img.freepik.com/free-vector/wind-icon-vector-renewable-energy-symbol_53876-111861.jpg?w=740&t=st=1680849140~exp=1680849740~hmac=00b7feda70484ea7a258cc3b8842b1025b576545e51c490f6071372fc1e1e580';
+                break;             
                 
                 default:
                     image.src = '';
