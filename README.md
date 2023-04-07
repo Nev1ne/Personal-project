@@ -1,3 +1,27 @@
+Weather App
+Developer: Nevine
+This project is a web application that allows users to access the weather conditions for a particular place
+
+MVPs
+Search for any location.
+Access the weather of that particular location.
+Select and like a pet.
+Adopt a pet and submit an input form for email and address.
+Technologies Used
+The following technologies were used in the development of this project:
+
+HTML CSS JavaScript
+
+Installation and Usage
+To install and use this project, follow these steps:
+
+Clone the repository from GitHub. Install the required dependencies using npm install. Start the server using npm start. Open a web browser and navigate to http://localhost:3000. Contributing If you would like to contribute to this project, please submit a pull request with your changes.
+
+Credits
+This project was created by Nevine Achola
+
+
+
 # Phase 1 Project Guidelines
 
 ## Learning Goals
