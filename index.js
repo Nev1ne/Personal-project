@@ -62,7 +62,7 @@ fetch (`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&a
                 image.src = 'https://img.freepik.com/free-vector/thermometer-winter-season_1308-69842.jpg?w=740&t=st=1680847915~exp=1680848515~hmac=d6ad06e0fdb53f422e57e53f9b2353cfc78b4f0328cd85c360d9283ae9a857cd';
                 break;
             case 'Clouds':
-                image.src = 'https://img.freepik.com/free-vector/horizontal-sky-with-cloud-background_1308-110533.jpg?w=996&t=st=1680847779~exp=1680848379~hmac=17ca2024a7ff641fa731c1dca1ce728dd5e348fbf3aa79b1df24289d3479ff9a';
+                image.src = 'https://img.freepik.com/premium-photo/abstract-image-with-cloud-like-shape-crayon-scribbled-texture-hand-drawn-crayons_448865-1233.jpg?w=996';
                 break;  
             
             case 'Haze':
