@@ -43,9 +43,13 @@ fetch (`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&a
             case 'Clouds':
                 image.src = 'https://img.freepik.com/free-vector/horizontal-sky-with-cloud-background_1308-110533.jpg?w=996&t=st=1680847779~exp=1680848379~hmac=17ca2024a7ff641fa731c1dca1ce728dd5e348fbf3aa79b1df24289d3479ff9a';
                 break;  
+            
             case 'Haze':
                 image.src = 'https://img.freepik.com/premium-vector/abstract-swirl-smoke-steam-isolated-blue-background_714617-175.jpg?w=996';
-                break;   
+                break;  
+            case 'Moon':
+                image.src = 'https://img.freepik.com/free-vector/blue-watercolor-crescent-geometric-shape-vector_53876-164626.jpg?size=626&ext=jpg';
+                break;          
                 
                 default:
                     image.src = '';
